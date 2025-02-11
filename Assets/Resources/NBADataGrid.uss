@@ -1,0 +1,41 @@
+.header-row {
+    background-color: rgb(40, 40, 40);
+    height: 35px;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(100, 100, 100);
+    flex-direction: row;
+}
+
+.header-cell {
+    padding: 5px;
+    -unity-text-align: middle-left;
+    color: rgb(200, 200, 200);
+    border-right-width: 1px;
+    border-right-color: rgb(100, 100, 100);
+    white-space: nowrap;
+    overflow: hidden;
+    background-color: rgb(40, 40, 40);
+    border-width: 0;
+    border-radius: 0;
+    margin: 0;
+}
+
+.header-cell:hover {
+    background-color: rgb(50, 50, 50);
+}
+
+.grid-cell {
+    padding: 5px;
+    -unity-text-align: middle-left;
+    color: white;
+    border-right-width: 1px;
+    border-right-color: rgb(60, 60, 60);
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(60, 60, 60);
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+ScrollView {
+    flex-grow: 1;
+}
